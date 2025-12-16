@@ -1,19 +1,19 @@
 {
   "basics": {
     "name": "Bo Yang",
-    "label": "Software Engineer | Machine Learning Engineer",
+    "label": "",
     "image": "/me_avatar.jpg",
     "email": "Byang0845@Gmail.com",
     "phone": "(860) 729-0003",
     "url": "https://bya0845.github.io/website",
-    "summary": "Recent Georgia Tech OMSCS graduate with a background in structural engineering, specializing in distributed systems, machine learning, and cloud computing. Experienced in building scalable systems with Kubernetes, Azure, and implementing ML solutions with PyTorch.",
+    "summary": "Hello! I am a recent graduate of Georgia Tech's Computer Science Master's program. I am looking for opportunities as a software engineer. \n\n My interests are distributed systems, pruning neural networks, Rust, and building mcp apps. Feel free to check out my projects or read about my OMSCS experience. \n\n I work as a structural engineer in bridge inspection and design.",
     "theme": "default",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Peekskill",
+      "city": "New York City",
       "countryCode": "US",
-      "region": "New York"
+      "region": ""
     },
     "profiles": [
       {
@@ -83,11 +83,11 @@
     {
       "institution": "Georgia Institute of Technology",
       "url": "https://gatech.edu",
+      "studyType": "M.S.",
       "area": "Computer Science",
-      "studyType": "Master of Science",
-      "startDate": "2021-01-01",
-      "endDate": "2025-12-01",
-      "score": "3.87",
+      "startDate": "2023-08-01",
+      "endDate": "2025-12-31",
+      "score": "3.90",
       "courses": [
         "System Design in Cloud Computing",
         "Graduate Algorithms",
@@ -100,10 +100,10 @@
     {
       "institution": "University of Connecticut",
       "url": "https://uconn.edu",
+      "studyType": "B.S.E.",
       "area": "Civil Engineering",
-      "studyType": "Bachelor of Science in Engineering",
-      "startDate": "2013-09-01",
-      "endDate": "2017-05-01",
+      "startDate": null,
+      "endDate": null,
       "score": "",
       "courses": []
     }
@@ -195,16 +195,15 @@
   "references": [],
   "projects": [
     {
-      "name": "Distributed MapReduce",
+      "name": "Lighweight Spark",
       "isActive": true,
-      "description": "Built a distributed MapReduce system in Rust deployed on Azure Kubernetes Service using etcd and gRPC/Tokio for leader election and coordination.",
-      "highlights": [
-        "Implemented job submission CLI with Azure Blob Storage for results",
-        "Automated infrastructure deployment supporting both KIND and AKS clusters",
-        "Integrated Azure Key Vault for credential management"
+      "description": [
+        "A simplified Spark framework built in Rust",
+        "In-memory Map/Reduce",
+        "Deployed via Azure Kubernetes Service"
       ],
       "url": "",
-      "github": "https://github.com/bya0845"
+      "github": "https://github.com/bya0845/spark"
     },
     {
       "name": "Network Function Virtualization Orchestrator",
