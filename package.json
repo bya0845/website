@@ -3,25 +3,24 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev --host --show",
-    "start": "astro dev --host",
+    "dev": "astro dev",
+    "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "check": "npm run check:cv && astro check",
-    "check:cv": "node scripts/validator/check-cv.cjs"
+    "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@iconify-json/devicon": "^1.2.23",
-    "@iconify-json/simple-icons": "^1.2.33",
-    "astro": "^5.15.1",
-    "astro-icon": "^1.1.5",
-    "hotkeypad": "^1.0.1",
-    "typescript": "^5.8.3"
+    "@astrojs/check": "0.4.1",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "4.3.2",
+    "astro-font-picker": "^0.2.1",
+    "hotkeypad": "0.1.0",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.4",
+    "typescript": "5.3.3"
   },
   "devDependencies": {
-    "jsonschema": "^1.5.0",
-    "tsx": "^4.19.3"
+    "prettier": "^3.3.2",
+    "prettier-plugin-astro": "^0.14.0"
   }
 }

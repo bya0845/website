@@ -1,0 +1,233 @@
+{
+  "basics": {
+    "name": "Bo Yang",
+    "label": "Software Engineer | Machine Learning Engineer",
+    "image": "/me_avatar.jpg",
+    "email": "Byang0845@Gmail.com",
+    "phone": "(860) 729-0003",
+    "url": "https://bya0845.github.io/website",
+    "summary": "Recent Georgia Tech OMSCS graduate with a background in structural engineering, specializing in distributed systems, machine learning, and cloud computing. Experienced in building scalable systems with Kubernetes, Azure, and implementing ML solutions with PyTorch.",
+    "theme": "default",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Peekskill",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "bya0845",
+        "url": "https://github.com/bya0845"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "bo-yang",
+        "url": "https://linkedin.com/in/bo-yang"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Ingenimax",
+      "position": "Engineering Intern",
+      "location_type": "Remote",
+      "location": "Remote",
+      "url": "https://ingenimax.com",
+      "startDate": "2024-12-01",
+      "endDate": "2025-01-01",
+      "summary": "Contributed to platform engineering AI agent development for automated Kubernetes and AWS container deployment.",
+      "highlights": [
+        "Contributed to the code base for a platform engineering AI agent that deployed Kubernetes and AWS containers based on client needs"
+      ],
+      "responsibilities": [
+        "Developed and tested AI agent capabilities for automated infrastructure deployment",
+        "Implemented LLM query and chain of thought functionalities",
+        "Tested context fetching and integration with cloud platforms"
+      ],
+      "achievements": [
+        "Successfully implemented and tested core AI agent features for automated deployment"
+      ],
+      "skills": ["Kubernetes", "AWS", "LLM", "Python"]
+    },
+    {
+      "name": "South Col Engineering, P.C.",
+      "position": "Structural Engineer",
+      "location_type": "On site",
+      "location": "New York, NY",
+      "url": "",
+      "startDate": "2021-08-01",
+      "endDate": null,
+      "summary": "Conduct bridge inspections and structural analysis for NYSDOT, processing field data and compiling inspection reports.",
+      "highlights": [
+        "Conducted inspections of in-service bridges in New York State Region 8 for NYSDOT"
+      ],
+      "responsibilities": [
+        "Performed structural inspections of in-service bridges as subcontractor to WSP",
+        "Processed field data and performed structural loss calculations",
+        "Compiled inspection reports in NYSDOT's Bridge Data Information System"
+      ],
+      "achievements": [
+        "Successfully completed numerous bridge inspection projects maintaining high quality standards"
+      ],
+      "skills": [
+        "Structural Analysis",
+        "Data Processing",
+        "Technical Documentation"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology",
+      "url": "https://gatech.edu",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "2021-01-01",
+      "endDate": "2025-12-01",
+      "score": "3.87",
+      "courses": [
+        "System Design in Cloud Computing",
+        "Graduate Algorithms",
+        "Deep Learning",
+        "Advanced Operating Systems",
+        "Artificial Intelligence",
+        "Database System Implementation"
+      ]
+    },
+    {
+      "institution": "University of Connecticut",
+      "url": "https://uconn.edu",
+      "area": "Civil Engineering",
+      "studyType": "Bachelor of Science in Engineering",
+      "startDate": "2013-09-01",
+      "endDate": "2017-05-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "certificates": [],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Expert",
+      "keywords": ["Programming", "Backend", "Machine Learning"]
+    },
+    {
+      "name": "Rust",
+      "level": "Intermediate",
+      "keywords": ["Programming", "Systems", "Performance"]
+    },
+    {
+      "name": "C/C++",
+      "level": "Intermediate",
+      "keywords": ["Programming", "Systems"]
+    },
+    {
+      "name": "Golang",
+      "level": "Intermediate",
+      "keywords": ["Programming", "Backend", "Distributed Systems"]
+    },
+    {
+      "name": "PyTorch",
+      "level": "Expert",
+      "keywords": ["Machine Learning", "Deep Learning", "AI"]
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Intermediate",
+      "keywords": ["DevOps", "Container Orchestration", "Cloud"]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": ["DevOps", "Containers"]
+    },
+    {
+      "name": "Azure",
+      "level": "Intermediate",
+      "keywords": ["Cloud", "Infrastructure", "DevOps"]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermediate",
+      "keywords": ["Cloud", "Infrastructure", "DevOps"]
+    },
+    {
+      "name": "Git",
+      "level": "Expert",
+      "keywords": ["Version Control", "Collaboration"]
+    },
+    {
+      "name": "gRPC",
+      "level": "Intermediate",
+      "keywords": ["Backend", "Distributed Systems", "RPC"]
+    },
+    {
+      "name": "SQL",
+      "level": "Intermediate",
+      "keywords": ["Database", "Backend"]
+    },
+    {
+      "name": "Flask",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Backend", "Python"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": ["Machine Learning", "Distributed Systems", "Cloud Computing"]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Distributed MapReduce",
+      "isActive": true,
+      "description": "Built a distributed MapReduce system in Rust deployed on Azure Kubernetes Service using etcd and gRPC/Tokio for leader election and coordination.",
+      "highlights": [
+        "Implemented job submission CLI with Azure Blob Storage for results",
+        "Automated infrastructure deployment supporting both KIND and AKS clusters",
+        "Integrated Azure Key Vault for credential management"
+      ],
+      "url": "",
+      "github": "https://github.com/bya0845"
+    },
+    {
+      "name": "Network Function Virtualization Orchestrator",
+      "isActive": true,
+      "description": "Implemented a software-defined networking controller and network function manager on a virtual network.",
+      "highlights": [
+        "Built load balancer, firewall, and NAT network functions",
+        "Developed comprehensive test suite for network traffic generation and monitoring"
+      ],
+      "url": "",
+      "github": "https://github.com/bya0845"
+    },
+    {
+      "name": "Lightweight Convolutional Neural Network",
+      "isActive": true,
+      "description": "Developed a distributed solver using PyTorch and Hugging Face Accelerate for parallel model training on GaTech's HPC cluster.",
+      "highlights": [
+        "Implemented pruning methodology achieving up to 52% parameter reduction on DenseNet121",
+        "Maintained high model accuracy on CIFAR-10 and ImageNet datasets",
+        "Utilized structured and unstructured pruning techniques"
+      ],
+      "url": "",
+      "github": "https://github.com/bya0845"
+    }
+  ]
+}

@@ -1,11 +1,8 @@
-import { defineConfig } from 'astro/config';
-import icon from 'astro-icon';
-import { portfolioIcons } from './utils/portfolio-icons.js';
+import { defineConfig } from "astro/config";
+import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-    integrations: [
-        icon({
-            include: portfolioIcons,
-        })]
+  integrations: [tailwind()],
+  site: "https://by364.dev",
 });
