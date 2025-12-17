@@ -40,4 +40,8 @@ Most of the projects had written deliverables that asked to document our trainin
 
 GIOS was well-reviewed and one of the most popular classes in the program. From talking with other students I realized the importance of obtaining a solid systems background. The class also has the most active Slack in the program where TAs actively participate.
 
-The assignments taught network programming, IPC (interprocess communication), and RPC (remote procedure call). We used POSIX and C API to create multi-threaded client/server frameworks for file sharing. The last assignment used C++ with gRPC and protobuf. My experience was in line with the reviews. The lectures were clear, organized, and taught many fundamental concepts of computing systems that would come up in subsequent classes. The experience of designing, writing, and testing our implementations was incredibly beneficial my learning.
+The assignments taught network programming, IPC (interprocess communication), and RPC (remote procedure call). We used POSIX and C API to create multi-threaded client/server frameworks for file sharing. The last assignment used C++ with gRPC and protobuf. My experience was in line with the reviews. The lectures were clear, organized, and taught many fundamental concepts of computing systems that came up in subsequent classes. I found the experience of working in C and figuring out POSIX APIs invaluable for learning class concepts and becoming a better engineer. The Slack contained many discussions from fellow students and TAs where we could talk about high level concepts.
+
+### Compputer Networks - Spring 24<br><br>
+
+I paired this class with GIOS as they overlapped on networked concepts and it's a lightwork load.

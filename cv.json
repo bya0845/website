@@ -46,9 +46,7 @@
         "Implemented LLM query and chain of thought functionalities",
         "Tested context fetching and integration with cloud platforms"
       ],
-      "achievements": [
-        "Successfully implemented and tested core AI agent features for automated deployment"
-      ],
+      "achievements": ["Successfully implemented and tested core AI agent features for automated deployment"],
       "skills": ["Kubernetes", "AWS", "LLM", "Python"]
     },
     {
@@ -60,22 +58,14 @@
       "startDate": "2021-08-01",
       "endDate": null,
       "summary": "Conduct bridge inspections and structural analysis for NYSDOT, processing field data and compiling inspection reports.",
-      "highlights": [
-        "Conducted inspections of in-service bridges in New York State Region 8 for NYSDOT"
-      ],
+      "highlights": ["Conducted inspections of in-service bridges in New York State Region 8 for NYSDOT"],
       "responsibilities": [
         "Performed structural inspections of in-service bridges as subcontractor to WSP",
         "Processed field data and performed structural loss calculations",
         "Compiled inspection reports in NYSDOT's Bridge Data Information System"
       ],
-      "achievements": [
-        "Successfully completed numerous bridge inspection projects maintaining high quality standards"
-      ],
-      "skills": [
-        "Structural Analysis",
-        "Data Processing",
-        "Technical Documentation"
-      ]
+      "achievements": ["Successfully completed numerous bridge inspection projects maintaining high quality standards"],
+      "skills": ["Structural Analysis", "Data Processing", "Technical Documentation"]
     }
   ],
   "volunteer": [],
@@ -195,6 +185,17 @@
   "references": [],
   "projects": [
     {
+      "name": "Bridge Database Management App",
+      "isActive": true,
+      "description": [
+        "A full-stack Flask application integrating a fine-tuned T5-Small transformer model for natural language querying of infrastructure data",
+        "Features automated deployment via Azure App Service and Fly.io with CI/CD",
+        "Includes MLflow for experiment tracking and Pydantic for type-safe configuration"
+      ],
+      "url": "https://bridge-app.by364.dev",
+      "github": "https://github.com/bya0845/bridge-app"
+    },
+    {
       "name": "Lighweight Spark",
       "isActive": true,
       "description": [
@@ -204,17 +205,6 @@
       ],
       "url": "",
       "github": "https://github.com/bya0845/spark"
-    },
-    {
-      "name": "Network Function Virtualization Orchestrator",
-      "isActive": true,
-      "description": "Implemented a software-defined networking controller and network function manager on a virtual network.",
-      "highlights": [
-        "Built load balancer, firewall, and NAT network functions",
-        "Developed comprehensive test suite for network traffic generation and monitoring"
-      ],
-      "url": "",
-      "github": "https://github.com/bya0845"
     },
     {
       "name": "Lightweight Convolutional Neural Network",
