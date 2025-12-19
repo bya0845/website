@@ -4,7 +4,7 @@
     "label": "",
     "image": "/me_avatar.jpg",
     "email": "Byang0845@Gmail.com",
-    "phone": "(860) 729-0003",
+    "phone": "8607290003",
     "url": "https://bya0845.github.io/website",
     "summary": "Hello! I am a recent graduate of Georgia Tech's Computer Science Master's program. I am looking for opportunities in software engineering and machine learning. \n\n My interests are distributed systems, pruning neural network architectures, and programming in Rust. Feel free to check out my projects and read about my OMSCS experience in the blog linked below. \n\n I currently work as a structural engineer in bridge inspection and design.",
     "theme": "default",
@@ -23,8 +23,8 @@
       },
       {
         "network": "LinkedIn",
-        "username": "bo-yang",
-        "url": "https://linkedin.com/in/bo-yang"
+        "username": "Bo Yang",
+        "url": "https://www.linkedin.com/in/604588314/"
       }
     ]
   },
@@ -32,11 +32,11 @@
     {
       "name": "Ingenimax",
       "position": "Engineering Intern",
-      "location_type": "Remote",
+      "location_type": "",
       "location": "Remote",
       "url": "https://ingenimax.com",
       "startDate": "2024-12-01",
-      "endDate": "2025-01-01",
+      "endDate": "2025-01-31",
       "summary": "Contributed to platform engineering AI agent development for automated Kubernetes and AWS container deployment.",
       "highlights": [
         "Contributed to the code base for a platform engineering AI agent that deployed Kubernetes and AWS containers based on client needs"
@@ -52,8 +52,7 @@
     {
       "name": "South Col Engineering, P.C.",
       "position": "Structural Engineer",
-      "location_type": "On site",
-      "location": "New York, NY",
+      "location": "Lower Hudson, NY",
       "url": "",
       "startDate": "2021-08-01",
       "endDate": null,

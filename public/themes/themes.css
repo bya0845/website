@@ -1,112 +1,290 @@
 @tailwind base;
+
 @layer base {
   :root {
+    /* --- DEFAULT LIGHT THEME (Orange) --- */
     --color-text-base: 0, 0, 0;
-    --color-text-muted: 120, 120, 120;
+    --color-text-muted: 100, 100, 100;
     --color-text-inverted: 255, 255, 255;
-    --color-fill: 245, 245, 245;
-    --muted: 200, 200, 200;
+    --color-fill: 250, 250, 250;
+    --muted: 220, 220, 220;
     --color: 249, 115, 22;
     --color-button-accent: 249, 115, 22;
     --color-button-accent-hover: 55, 55, 55;
     --color-button-muted: 244, 239, 238;
+
+    /* --- BLUE --- */
     [data-theme="blue"] {
       --color-text-base: 15, 23, 42;
       --color-text-muted: 100, 116, 139;
-      --color-text-inverted: 240, 240, 240;
-      --color-fill: 203, 213, 225;
-      --muted: 148, 163, 184;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 241, 245, 249;
+      --muted: 203, 213, 225;
       --color: 59, 130, 246;
       --color-button-accent: 59, 130, 246;
-      --color-button-accent-hover: 0, 185, 255;
+      --color-button-accent-hover: 37, 99, 235;
       --color-button-muted: 226, 232, 240;
     }
+
+    /* --- RED --- */
     [data-theme="red"] {
       --color-text-base: 28, 25, 23;
-      --color-text-muted: 100, 100, 100;
-      --color-text-inverted: 245, 245, 245;
-      --color-fill: 231, 229, 228;
-      --muted: 220, 220, 220;
+      --color-text-muted: 120, 113, 108;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 250, 250, 249;
+      --muted: 231, 229, 228;
       --color: 239, 68, 68;
       --color-button-accent: 239, 68, 68;
-      --color-button-accent-hover: 220, 50, 70;
+      --color-button-accent-hover: 220, 38, 38;
       --color-button-muted: 245, 245, 245;
     }
+
+    /* --- GREEN --- */
     [data-theme="green"] {
-      --color-text-base: 40, 40, 40;
-      --color-text-muted: 110, 110, 110;
-      --color-text-inverted: 230, 230, 230;
-      --color-fill: 236, 252, 203;
-      --muted: 189, 220, 147;
+      --color-text-base: 20, 40, 20;
+      --color-text-muted: 100, 120, 100;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 245, 250, 240;
+      --muted: 200, 230, 180;
       --color: 101, 163, 13;
       --color-button-accent: 101, 163, 13;
-      --color-button-accent-hover: 120, 220, 120;
-      --color-button-muted: 211, 235, 173;
+      --color-button-accent-hover: 77, 124, 15;
+      --color-button-muted: 220, 240, 200;
     }
+
+    /* --- CYBER (Yellow/Neon) --- */
     [data-theme="cyber"] {
       --color-text-base: 15, 15, 15;
-      --color-text-muted: 144, 135, 5;
-      --color-text-inverted: 240, 240, 240;
-      --color-fill: 252, 255, 64;
-      --muted: 50, 50, 50;
+      --color-text-muted: 80, 80, 80;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 252, 255, 100;
+      --muted: 200, 200, 50;
       --color: 235, 21, 43;
       --color-button-accent: 235, 21, 43;
-      --color-button-accent-hover: 0, 185, 255;
-      --color-button-muted: 249, 239, 6;
+      --color-button-accent-hover: 180, 10, 30;
+      --color-button-muted: 240, 230, 50;
+    }
+
+    /* --- MINT (Fresh Green) --- */
+    [data-theme="mint"] {
+      --color-text-base: 6, 78, 59;
+      --color-text-muted: 80, 120, 100;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 240, 253, 244;
+      --muted: 167, 243, 208;
+      --color: 16, 185, 129;
+      --color-button-accent: 16, 185, 129;
+      --color-button-accent-hover: 5, 150, 105;
+      --color-button-muted: 209, 250, 229;
+    }
+
+    /* --- BROWN (Earth/Coffee) --- */
+    [data-theme="brown"] {
+      --color-text-base: 66, 32, 6;
+      --color-text-muted: 120, 100, 90;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 253, 248, 246;
+      --muted: 231, 229, 228;
+      --color: 180, 83, 9;
+      --color-button-accent: 180, 83, 9;
+      --color-button-accent-hover: 146, 64, 14;
+      --color-button-muted: 245, 245, 244;
+    }
+
+    /* --- TEAL (Ocean) --- */
+    [data-theme="teal"] {
+      --color-text-base: 19, 78, 74;
+      --color-text-muted: 90, 110, 110;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 240, 253, 250;
+      --muted: 204, 251, 241;
+      --color: 13, 148, 136;
+      --color-button-accent: 13, 148, 136;
+      --color-button-accent-hover: 17, 94, 89;
+      --color-button-muted: 204, 251, 241;
+    }
+
+    /* --- NEW 1: INDIGO (Royal) --- */
+    [data-theme="indigo"] {
+      --color-text-base: 30, 27, 75;
+      --color-text-muted: 99, 102, 241;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 238, 242, 255; /* Soft Indigo Mist */
+      --muted: 199, 210, 254;
+      --color: 79, 70, 229; /* Indigo 600 */
+      --color-button-accent: 79, 70, 229;
+      --color-button-accent-hover: 67, 56, 202;
+      --color-button-muted: 224, 231, 255;
+    }
+
+    /* --- NEW 2: MINIMAL (Slate/Mono) --- */
+    [data-theme="minimal"] {
+      --color-text-base: 15, 23, 42;
+      --color-text-muted: 100, 116, 139;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 255, 255, 255; /* Pure White */
+      --muted: 226, 232, 240;
+      --color: 51, 65, 85; /* Slate 700 */
+      --color-button-accent: 51, 65, 85;
+      --color-button-accent-hover: 30, 41, 59;
+      --color-button-muted: 241, 245, 249;
+    }
+
+    /* --- NEW 3: ROSE (Blush) --- */
+    [data-theme="rose"] {
+      --color-text-base: 76, 5, 25;
+      --color-text-muted: 159, 18, 57;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 255, 241, 242; /* Rose 50 */
+      --muted: 254, 205, 211;
+      --color: 225, 29, 72; /* Rose 600 */
+      --color-button-accent: 225, 29, 72;
+      --color-button-accent-hover: 190, 18, 60;
+      --color-button-muted: 255, 228, 230;
     }
   }
+
+  /* --- DARK MODE OVERRIDES (All text brightened) --- */
   .dark {
+    /* DEFAULT DARK */
     --color-text-base: 255, 255, 255;
-    --color-text-muted: 150, 150, 150;
+    --color-text-muted: 190, 190, 190;
     --color-text-inverted: 255, 255, 255;
     --color-fill: 18, 18, 18;
     --muted: 36, 36, 36;
     --color: 227, 77, 10;
     --color-button-accent: 227, 77, 10;
     --color-button-accent-hover: 231, 121, 43;
-    --color-button-muted: 26, 26, 26;
+    --color-button-muted: 40, 40, 40;
+
+    /* BLUE DARK */
     [data-theme="blue"] {
-      --color-text-base: 248, 250, 252;
-      --color-text-muted: 148, 163, 184;
-      --color-text-inverted: 240, 240, 240;
+      --color-text-base: 255, 255, 255;
+      --color-text-muted: 190, 200, 220;
+      --color-text-inverted: 255, 255, 255;
       --color-fill: 2, 6, 23;
-      --muted: 51, 65, 85;
+      --muted: 30, 41, 59;
       --color: 59, 130, 246;
       --color-button-accent: 59, 130, 246;
-      --color-button-accent-hover: 0, 185, 255;
+      --color-button-accent-hover: 96, 165, 250;
       --color-button-muted: 30, 41, 59;
     }
+
+    /* RED DARK */
     [data-theme="red"] {
-      --color-text-base: 231, 229, 228;
-      --color-text-muted: 168, 162, 158;
-      --color-text-inverted: 245, 245, 245;
+      --color-text-base: 255, 255, 255;
+      --color-text-muted: 210, 200, 200;
+      --color-text-inverted: 255, 255, 255;
       --color-fill: 28, 25, 23;
-      --muted: 45, 45, 45;
+      --muted: 68, 64, 60;
       --color: 248, 113, 113;
       --color-button-accent: 248, 113, 113;
-      --color-button-accent-hover: 220, 50, 70;
-      --color-button-muted: 120, 113, 108;
+      --color-button-accent-hover: 252, 165, 165;
+      --color-button-muted: 68, 64, 60;
     }
+
+    /* GREEN DARK */
     [data-theme="green"] {
-      --color-text-base: 230, 230, 230;
-      --color-text-muted: 104, 124, 104;
-      --color-text-inverted: 230, 230, 230;
-      --color-fill: 10, 20, 10;
-      --muted: 54, 64, 54;
+      --color-text-base: 255, 255, 255;
+      --color-text-muted: 190, 210, 190;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 10, 25, 10;
+      --muted: 34, 50, 34;
       --color: 132, 204, 22;
       --color-button-accent: 132, 204, 22;
-      --color-button-accent-hover: 120, 220, 120;
-      --color-button-muted: 34, 44, 34;
+      --color-button-accent-hover: 163, 230, 53;
+      --color-button-muted: 34, 50, 34;
     }
+
+    /* CYBER DARK */
     [data-theme="cyber"] {
-      --color-text-base: 252, 255, 64;
-      --color-text-muted: 125, 125, 125;
-      --color-text-inverted: 240, 240, 240;
-      --color-fill: 15, 15, 15;
+      --color-text-base: 252, 255, 64; /* Neon Yellow fits style */
+      --color-text-muted: 220, 220, 220;
+      --color-text-inverted: 0, 0, 0;
+      --color-fill: 10, 10, 10;
       --muted: 50, 50, 50;
       --color: 90, 237, 251;
       --color-button-accent: 90, 237, 251;
-      --color-button-accent-hover: 0, 185, 255;
+      --color-button-accent-hover: 150, 250, 255;
       --color-button-muted: 25, 81, 86;
     }
+
+    /* MINT DARK */
+    [data-theme="mint"] {
+      --color-text-base: 255, 255, 255;
+      --color-text-muted: 180, 220, 200;
+      --color-text-inverted: 6, 78, 59;
+      --color-fill: 2, 44, 34;
+      --muted: 6, 78, 59;
+      --color: 52, 211, 153;
+      --color-button-accent: 52, 211, 153;
+      --color-button-accent-hover: 110, 231, 183;
+      --color-button-muted: 6, 95, 70;
+    }
+
+    /* BROWN DARK */
+    [data-theme="brown"] {
+      --color-text-base: 255, 250, 240;
+      --color-text-muted: 210, 200, 190;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 30, 25, 20;
+      --muted: 70, 60, 50;
+      --color: 245, 158, 11;
+      --color-button-accent: 245, 158, 11;
+      --color-button-accent-hover: 251, 191, 36;
+      --color-button-muted: 87, 83, 78;
+    }
+
+    /* TEAL DARK */
+    [data-theme="teal"] {
+      --color-text-base: 240, 255, 255;
+      --color-text-muted: 180, 210, 210;
+      --color-text-inverted: 4, 47, 46;
+      --color-fill: 4, 47, 46;
+      --muted: 17, 94, 89;
+      --color: 45, 212, 191;
+      --color-button-accent: 45, 212, 191;
+      --color-button-accent-hover: 94, 234, 212;
+      --color-button-muted: 19, 78, 74;
+    }
+
+    /* NEW 1: INDIGO DARK (Royal) */
+    [data-theme="indigo"] {
+      --color-text-base: 255, 255, 255;
+      --color-text-muted: 199, 210, 254;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 15, 15, 40; /* Deep indigo night */
+      --muted: 49, 46, 129;
+      --color: 129, 140, 248;
+      --color-button-accent: 129, 140, 248;
+      --color-button-accent-hover: 165, 180, 252;
+      --color-button-muted: 49, 46, 129;
+    }
+
+    /* NEW 2: MINIMAL DARK (Slate/Mono) */
+    [data-theme="minimal"] {
+      --color-text-base: 255, 255, 255;
+      --color-text-muted: 180, 180, 180;
+      --color-text-inverted: 15, 23, 42; /* Dark text on light button */
+      --color-fill: 2, 6, 23; /* Almost black */
+      --muted: 51, 65, 85;
+      --color: 226, 232, 240; /* Light Slate */
+      --color-button-accent: 226, 232, 240;
+      --color-button-accent-hover: 255, 255, 255;
+      --color-button-muted: 30, 41, 59;
+    }
+
+    /* NEW 3: ROSE DARK (Blush) */
+    [data-theme="rose"] {
+      --color-text-base: 255, 241, 242;
+      --color-text-muted: 253, 164, 175;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 25, 5, 10; /* Deep wine */
+      --muted: 136, 19, 55;
+      --color: 251, 113, 133;
+      --color-button-accent: 251, 113, 133;
+      --color-button-accent-hover: 253, 164, 175;
+      --color-button-muted: 80, 7, 36;
+    }
+  }
 }

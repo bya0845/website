@@ -7,7 +7,6 @@ import { projects } from "@cv";
 ---
 
 <Section className={Astro.props.className} title="Projects">
-  {/* UPDATED: Changed from 'grid ... md:grid-cols-2' to 'flex flex-col' */}
   <div class="flex flex-col gap-3 print:flex print:flex-col">
     {
       projects.map(
@@ -29,14 +28,15 @@ import { projects } from "@cv";
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-folder size-4"
+                    class="lucide lucide-folder size-4 text-skin-muted"
                   >
                     <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" />
                   </svg>
+
                   <div class="flex items-center gap-[6px]">
                     {isActive ? (
                       <a
-                        class="group flex items-center gap-[6px] text-lg decoration-dotted underline-offset-[5px] hover:text-skin-hue hover:underline"
+                        class="text-skin-base group flex items-center gap-[6px] text-lg decoration-dotted underline-offset-[5px] hover:text-skin-hue hover:underline"
                         href={url}
                         title={`Ver ${name}`}
                         target="_blank"
@@ -47,7 +47,7 @@ import { projects } from "@cv";
                         </span>
                       </a>
                     ) : (
-                      <span>{name}</span>
+                      <span class="text-skin-base text-lg">{name}</span>
                     )}
                   </div>
                 </div>
@@ -58,7 +58,7 @@ import { projects } from "@cv";
                     title="View slug repository on GitHub"
                     target="_blank"
                     rel="noopener"
-                    class="flex items-center gap-1 opacity-75 transition-opacity duration-100 hover:opacity-100 text-sm font-medium"
+                    class="flex items-center gap-1 text-skin-muted opacity-75 transition-opacity duration-100 hover:opacity-100 text-sm font-medium"
                   >
                     <Git />
                     <span>Source</span>
@@ -115,16 +115,5 @@ import { projects } from "@cv";
     font-size: 0.6rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
-  }
-  @keyframes flicker {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.25;
-    }
-    100% {
-      opacity: 1;
-    }
   }
 </style>
