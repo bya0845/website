@@ -39,18 +39,27 @@ const SKILLS_ICONS: Record<string, any> = {
 <Section className={Astro.props.className} title="Experience">
   <ul class="flex flex-col">
     {work.map(({ name, startDate, endDate, position, summary, responsibilities, achievements, url, skills, location, location_type }) => {
-      // 1. Restore Month + Year formatting
-      const startYear = new Date(startDate).toLocaleDateString("en-US", { month: "short", year: "numeric" });
-      const endYear = endDate != null ? new Date(endDate).toLocaleDateString("en-US", { month: "short", year: "numeric" }) : "Present";
+      const startYear = new Date(startDate + "T00:00:00Z").toLocaleDateString("en-US", {
+        month: "short",
+        year: "numeric",
+        timeZone: "UTC"
+      });
+
+      const endYear = endDate != null
+        ? new Date(endDate + "T00:00:00Z").toLocaleDateString("en-US", {
+            month: "short",
+            year: "numeric",
+            timeZone: "UTC"
+          })
+        : "Present";
 
       return (
         <li class="relative print:py-2">
           <div class="group relative grid pb-1 print:pb-0 transition-all print:grid-cols-1 print:gap-1 sm:grid-cols-12 sm:gap-8 md:gap-6 lg:hover:!opacity-100 ">
 
-            {/* 2. Added 'text-skin-muted' for dark mode visibility */}
-            <header class="relative mt-1 text-xs font-semibold sm:col-span-2 text-skin-muted">
-              {/* 3. "Squished" spacing: Removed spaces around dash and used tight margins */}
-              <time datetime={startDate} data-title={startDate}>{startYear}</time><span class="mx-0.5">-</span><time datetime={endDate} data-title={endDate}>{endYear}</time>
+            <header class="relative mt-1 text-xs font-semibold sm:col-span-2 text-skin-muted pr-4 flex flex-col leading-tight ">
+              <time datetime={startDate}>{startYear}</time>
+              <span class="hidden sm:block">—</span> <time datetime={endDate}>{endYear}</time>
             </header>
 
             <div class="relative flex flex-col pb-6 print:pb-0 before:-ml-6 sm:col-span-10 before:w-px print:before:hidden before:absolute before:bg-skin-muted before:h-full before:mt-2">
