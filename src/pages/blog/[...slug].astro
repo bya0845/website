@@ -16,9 +16,19 @@ const { Content } = await post.render();
 
 <Layout title={post.data.title}>
   <main class="max-w-4xl mx-auto p-8">
-    <h1 class="text-4xl font-bold mb-4">{post.data.title}</h1>
-    <p class="text-gray-600 mb-8">{post.data.date.toLocaleDateString()}</p>
-    <article class="prose max-w-none">
+    <h1 class="text-4xl font-bold mb-2">{post.data.title}</h1>
+
+    {/* Simplified date format to match index: Month Day, Year */}
+    <p class="text-sm text-gray-500 mb-8">
+      {post.data.date.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        timeZone: 'UTC'
+      })}
+    </p>
+
+    <article class="prose max-w-none prose-headings:text-skin-base prose-p:text-skin-muted prose-a:text-skin-hue">
       <Content />
     </article>
   </main>

@@ -1,6 +1,6 @@
 ---
 title: "OMSCS Roundup"
-date: 2025-12-18
+date: 2025-12-20
 description: "This is a general survey of my experience in Georgia Tech's Online Master of Science in Computer Science Program"
 ---
 
@@ -42,7 +42,7 @@ GIOS was well-reviewed and one of the most popular classes in the program. From 
 
 The assignments taught network programming, IPC (inter-process communication), and RPC (remote procedure call). We used POSIX and C API to create multi-threaded client/server frameworks for file sharing. The last assignment used C++, gRPC, and protobuf. My experience was in line with the reviews. The lectures were clear, organized, and taught many fundamental concepts of computing systems that came up in every subsequent class. I found the experience of working in C and figuring out POSIX APIs invaluable for absorbing lecture concepts and learning to think like a software engineer. The Slack facilitated fruitful discussions over high level concepts among students that participated (there's a private GIOS alumni channel for the most active students) (yes I'm it).<br><br>
 
-I spent the entire winter break reading Beej and taking a C/Linux MOOC to prepare. During the semester I estimate having spent roughly 100 hours on P1, 50 hours on P2, then considerably less on P4. Most of the time was dedicated to debugging concurrency and distributed systems code, a theme that would come up again and again for the rest of the program. I look back on the class fondly as a more innocent time when I had not considered using LLMs for anything other than generating entertaining text and parsing the occasional Gradescope error output. I tried to refrain from delegating my learning to it for most of the program, as developing an adequate level of code-reading comprehension, writing ability, and thought process was essential to someone with a non-CS background. Grade: A<br><br>>
+I spent the entire winter break reading Beej and taking a C/Linux MOOC to prepare. During the semester I estimate having spent roughly 100 hours on P1, 50 hours on P2, then considerably less on P4. Most of the time was dedicated to debugging concurrency and distributed systems code, a theme that would come up again and again for the rest of the program. I look back on the class fondly as a more innocent time when I had not considered using LLMs for anything other than generating entertaining text and parsing the occasional Gradescope error output. I tried to refrain from delegating my learning to it for most of the program, as developing an adequate level of code-reading comprehension, writing ability, and thought process was essential to someone with a non-CS background. Grade: A<br><br>
 
 ### Computer Networks - Spring 24<br><br>
 
