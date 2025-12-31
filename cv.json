@@ -101,67 +101,54 @@
   "skills": [
     {
       "name": "Python",
-      "level": "Expert",
       "keywords": ["Programming", "Backend", "Machine Learning"]
     },
     {
       "name": "Rust",
-      "level": "Intermediate",
       "keywords": ["Programming", "Systems", "Performance"]
     },
     {
       "name": "C/C++",
-      "level": "Intermediate",
       "keywords": ["Programming", "Systems"]
     },
     {
       "name": "Golang",
-      "level": "Intermediate",
       "keywords": ["Programming", "Backend", "Distributed Systems"]
     },
     {
       "name": "PyTorch",
-      "level": "Expert",
       "keywords": ["Machine Learning", "Deep Learning", "AI"]
     },
     {
       "name": "Kubernetes",
-      "level": "Intermediate",
       "keywords": ["DevOps", "Container Orchestration", "Cloud"]
     },
     {
       "name": "Docker",
-      "level": "Intermediate",
       "keywords": ["DevOps", "Containers"]
     },
     {
       "name": "Azure",
-      "level": "Intermediate",
       "keywords": ["Cloud", "Infrastructure", "DevOps"]
     },
     {
       "name": "AWS",
-      "level": "Intermediate",
       "keywords": ["Cloud", "Infrastructure", "DevOps"]
     },
     {
       "name": "Git",
-      "level": "Expert",
       "keywords": ["Version Control", "Collaboration"]
     },
     {
       "name": "gRPC",
-      "level": "Intermediate",
       "keywords": ["Backend", "Distributed Systems", "RPC"]
     },
     {
       "name": "SQL",
-      "level": "Intermediate",
       "keywords": ["Database", "Backend"]
     },
     {
       "name": "Flask",
-      "level": "Intermediate",
       "keywords": ["Web Development", "Backend", "Python"]
     }
   ],
@@ -187,35 +174,35 @@
       "name": "Bridge Database Management App",
       "isActive": true,
       "description": [
-        "A full-stack Flask application integrating a fine-tuned T5-Small transformer model for natural language querying of infrastructure data",
-        "Features automated deployment via Azure App Service and Fly.io with CI/CD",
-        "Includes MLflow for experiment tracking and Pydantic for type-safe configuration"
+        "A full-stack Flask application that uses a fine-tuned Google T5 transformer model for natural language querying of a bridge database",
+        "Features automated deployment via Github and Fly.io with CI/CD",
+        "Model trained and finetuned using synthetic dataset."
       ],
       "url": "https://bridge-app.by364.dev",
       "github": "https://github.com/bya0845/bridge-app"
     },
     {
-      "name": "Lighweight Spark",
-      "isActive": true,
+      "name": "Lightweight Spark",
+      "isActive": false,
       "description": [
-        "A simplified Spark framework built in Rust",
-        "In-memory Map/Reduce",
-        "Deployed via Azure Kubernetes Service"
+        "Lightweight Apache Spark framework featuring MapReduce with in-memory intermediate file processing, built in Rust",
+        "Fully deployable over Azure Kubernetes Service or locally via KIND",
+        "High-availability master with failover. Master pods employ etcd leader election, leader offers state replication to followers. All network communication implemented via gRPC/Tokio",
+        "Utilizes AKS, Azure blob storage, and includes Python client interface built with prompt toolkit"
       ],
       "url": "",
-      "github": "https://github.com/bya0845/spark"
+      "github": ""
     },
     {
       "name": "Lightweight Convolutional Neural Network",
       "isActive": true,
       "description": "Developed a distributed solver using PyTorch and Hugging Face Accelerate for parallel model training on GaTech's HPC cluster.",
       "highlights": [
-        "Implemented pruning methodology achieving up to 52% parameter reduction on DenseNet121",
-        "Maintained high model accuracy on CIFAR-10 and ImageNet datasets",
-        "Utilized structured and unstructured pruning techniques"
+        "Implemented pruning methodology using Torch structured pruning and unstructured pruning techniques",
+        "Reduced model sizes by over half on various CNNs (DenseNet) while maintaining high inference accuracy"
       ],
       "url": "",
-      "github": "https://github.com/bya0845"
+      "github": "https://github.com/bya0845/CS7643-DL-Project"
     }
   ]
 }
