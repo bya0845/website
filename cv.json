@@ -180,10 +180,10 @@
       "github": "https://github.com/bya0845/bridge-app"
     },
     {
-      "name": "Lightweight Spark",
+      "name": "Spark in Rust",
       "isActive": true,
       "description": [
-        "Lightweight Apache Spark framework featuring MapReduce with in-memory intermediate file processing, written in Rust",
+        "Simplified Apache Spark framework featuring MapReduce with in-memory intermediate file processing, written in Rust",
         "Deployable over Azure Kubernetes Service or locally via kind",
         "Master pods employ etcd leader election, leader offers state replication to followers"
       ],
