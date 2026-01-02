@@ -46,8 +46,8 @@
         "Implemented LLM query and chain of thought functionalities",
         "Tested context fetching and integration with cloud platforms"
       ],
-      "achievements": ["Successfully implemented and tested core AI agent features for automated deployment"],
-      "skills": ["Kubernetes", "AWS", "LLM", "Python"]
+      "achievements": "",
+      "skills": ["Kubernetes", "AWS", "LLM"]
     },
     {
       "name": "South Col Engineering, P.C.",
@@ -56,14 +56,12 @@
       "url": "",
       "startDate": "2021-08-01",
       "endDate": null,
-      "summary": "Conduct bridge inspections and structural analysis for NYSDOT, processing field data and compiling inspection reports.",
+      "summary": "Bridge inspection and design in New York State Region 8",
       "highlights": ["Conducted inspections of in-service bridges in New York State Region 8 for NYSDOT"],
       "responsibilities": [
-        "Performed structural inspections of in-service bridges as subcontractor to WSP",
-        "Processed field data and performed structural loss calculations",
-        "Compiled inspection reports in NYSDOT's Bridge Data Information System"
+        "Inspect in-service bridges, perform structural analysis, compile inspection reports in NYSDOT's BDIS (Bridge Data Information System)",
+        "Maintain self-developed field assistant app and in-house bridge database"
       ],
-      "achievements": ["Successfully completed numerous bridge inspection projects maintaining high quality standards"],
       "skills": ["Structural Analysis", "Data Processing", "Technical Documentation"]
     }
   ],
