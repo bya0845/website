@@ -175,23 +175,22 @@
       "isActive": true,
       "description": [
         "A full-stack Flask application that uses a fine-tuned Google T5 transformer model for natural language querying of a bridge database",
-        "Features automated deployment via Github and Fly.io with CI/CD",
-        "Model trained and finetuned using synthetic dataset."
+        "Model was trained and finetuned on a synthetic dataset of mapped queries to app/SQL query endpoints",
+        "Automated deployment via Github and Fly.io with CI/CD"
       ],
       "url": "https://bridge-app.by364.dev",
       "github": "https://github.com/bya0845/bridge-app"
     },
     {
       "name": "Lightweight Spark",
-      "isActive": false,
+      "isActive": true,
       "description": [
-        "Lightweight Apache Spark framework featuring MapReduce with in-memory intermediate file processing, built in Rust",
-        "Fully deployable over Azure Kubernetes Service or locally via KIND",
-        "High-availability master with failover. Master pods employ etcd leader election, leader offers state replication to followers. All network communication implemented via gRPC/Tokio",
-        "Utilizes AKS, Azure blob storage, and includes Python client interface built with prompt toolkit"
+        "Lightweight Apache Spark framework featuring MapReduce with in-memory intermediate file processing, written in Rust",
+        "Deployable over Azure Kubernetes Service or locally via kind",
+        "Master pods employ etcd leader election, leader offers state replication to followers"
       ],
-      "url": "",
-      "github": ""
+      "url": "https://github.com/bya0845/rust-spark",
+      "github": "https://github.com/bya0845/rust-spark"
     },
     {
       "name": "Lightweight Convolutional Neural Network",
@@ -201,7 +200,7 @@
         "Implemented pruning methodology using Torch structured pruning and unstructured pruning techniques",
         "Reduced model sizes by over half on various CNNs (DenseNet) while maintaining high inference accuracy"
       ],
-      "url": "",
+      "url": "https://github.com/bya0845/CS7643-DL-Project/blob/main/Paper.pdf",
       "github": "https://github.com/bya0845/CS7643-DL-Project"
     }
   ]
