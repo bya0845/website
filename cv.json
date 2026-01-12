@@ -6,7 +6,7 @@
     "email": "Byang0845@Gmail.com",
     "phone": "8607290003",
     "url": "https://bya0845.github.io/website",
-    "summary": "Hello! I am a recent graduate of Georgia Tech's Computer Science Master's program. I am looking for opportunities in software engineering and machine learning. \n\n My interests are distributed systems, pruning neural network architectures, and programming in Rust. Feel free to check out my projects and read about my OMSCS experience in the blog linked below. \n\n I currently work as a structural engineer in bridge inspection and design.",
+    "summary": "Hello! I am a recent graduate of Georgia Tech's Computer Science Master's program. I am looking for opportunities in software engineering and machine learning. \n\n My interests are distributed systems, databases, and building agentic AI tools. Feel free to check out my projects and read about my OMSCS experience in the blog linked below. \n\n I currently work as a structural engineer in bridge inspection.",
     "theme": "default",
     "location": {
       "address": "",
@@ -37,9 +37,9 @@
       "url": "https://ingenimax.com",
       "startDate": "2024-12-01",
       "endDate": "2025-01-31",
-      "summary": "Contributed to platform engineering AI agent development for automated Kubernetes and AWS container deployment.",
+      "summary": "Contributed to a platform-engineering AI agent MVP that automated deployment for Amazon EKS clusters based on client needs.",
       "highlights": [
-        "Contributed to the code base for a platform engineering AI agent that deployed Kubernetes and AWS containers based on client needs"
+        "Contributed to a platform-engineering AI agent MVP that automated deployment for Amazon EKS clusters based on client needs."
       ],
       "responsibilities": [
         "Developed and tested AI agent capabilities for automated infrastructure deployment",
@@ -47,7 +47,7 @@
         "Tested context fetching and integration with cloud platforms"
       ],
       "achievements": "",
-      "skills": ["Kubernetes", "AWS", "LLM"]
+      "skills": ["Kubernetes", "AWS", "LLM", "MCP", "Golang", "Langchain", "VectorDB"]
     },
     {
       "name": "South Col Engineering, P.C.",
@@ -60,7 +60,7 @@
       "highlights": ["Conducted inspections of in-service bridges in New York State Region 8 for NYSDOT"],
       "responsibilities": [
         "Inspect in-service bridges, perform structural analysis, compile inspection reports in NYSDOT's BDIS (Bridge Data Information System)",
-        "Maintain self-developed field assistant app and in-house bridge database"
+        "Maintain self-developed field assistant app"
       ],
       "skills": ["Structural Analysis", "Data Processing", "Technical Documentation"]
     }
@@ -114,8 +114,20 @@
       "keywords": ["Programming", "Backend", "Distributed Systems"]
     },
     {
+      "name": "Typescript"
+    },
+    {
+      "name": "React"
+    },
+    {
       "name": "PyTorch",
       "keywords": ["Machine Learning", "Deep Learning", "AI"]
+    },
+    {
+      "name": "Hugging Face"
+    },
+    {
+      "name": "MLflow"
     },
     {
       "name": "Kubernetes",
@@ -174,7 +186,9 @@
       "description": [
         "A full-stack Flask application that uses a fine-tuned Google T5 transformer model for natural language querying of a bridge database",
         "Model was trained and finetuned on a synthetic dataset of mapped queries to app/SQL query endpoints",
+        "Raw data with individual bridge location and structural data was processed into an SQLite database. Natural-language AI search implemented on top using a lightweight transformer.",
         "Automated deployment via Github and Fly.io with CI/CD"
+
       ],
       "url": "https://bridge-app.by364.dev",
       "github": "https://github.com/bya0845/bridge-app"
@@ -183,9 +197,11 @@
       "name": "Spark in Rust",
       "isActive": true,
       "description": [
-        "Simplified Apache Spark framework featuring MapReduce with in-memory intermediate file processing, written in Rust",
-        "Deployable over Azure Kubernetes Service or locally via kind",
-        "Master pods employ etcd leader election, leader offers state replication to followers"
+        "Simplified Apache Spark framework featuring distributed MapReduce with in-memory intermediate file processing, written in Rust",
+        "Parallel data processing and data partitioning managed via gRPC/Tokio crate. Master pods employ etcd leader election. Leader pod offers state replication to followers.",
+        "Worker mappers stream output data to master designated worker reducer nodes",
+         "Deployable over Azure Kubernetes Service or locally via kind",
+        "Includes CLI for package installation, Azure configuration, and reduce-output verification"
       ],
       "url": "https://github.com/bya0845/rust-spark",
       "github": "https://github.com/bya0845/rust-spark"
