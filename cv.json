@@ -6,7 +6,7 @@
     "email": "Byang0845@Gmail.com",
     "phone": "8607290003",
     "url": "https://bya0845.github.io/website",
-    "summary": "Hello! I am a recent graduate of Georgia Tech's Computer Science Master's program. I am looking for opportunities in software engineering and machine learning. \n\n My interests are distributed systems, databases, and building agentic AI tools. Feel free to check out my projects and read about my OMSCS experience in the blog linked below. \n\n I currently work as a structural engineer in bridge inspection.",
+    "summary": "Hello! I am a recent graduate of Georgia Tech's Computer Science Master's program. You can read about my OMSCS experience in the blog linked below. \n\n I will be starting a new role next month as a data engineer/structural engineer at WSP USA.",
     "theme": "default",
     "location": {
       "address": "",
@@ -30,6 +30,19 @@
   },
   "work": [
     {
+      "name": "WSP",
+      "position": "Data Engineer/Structural Engineer",
+      "location": "Valhalla, NY/NYC",
+      "url": "",
+      "startDate": "2026-03-02",
+      "endDate": null,
+      "responsibilities": [
+        "Build and maintain ETL pipeline using Azure stack",
+        "Build and maintain bridge inspection management software"
+      ],
+      "skills": ["Data Engineering", "Data Processing", "Software Engineering"]
+    },
+    {
       "name": "Ingenimax",
       "position": "Engineering Intern",
       "location_type": "",
@@ -37,10 +50,6 @@
       "url": "https://ingenimax.com",
       "startDate": "2024-12-01",
       "endDate": "2025-01-31",
-      "summary": "Contributed to a platform-engineering AI agent MVP that automated deployment for Amazon EKS clusters based on client needs.",
-      "highlights": [
-        "Contributed to a platform-engineering AI agent MVP that automated deployment for Amazon EKS clusters based on client needs."
-      ],
       "responsibilities": [
         "Developed and tested AI agent capabilities for automated infrastructure deployment",
         "Implemented LLM query and chain of thought functionalities",
@@ -56,8 +65,6 @@
       "url": "",
       "startDate": "2021-08-01",
       "endDate": null,
-      "summary": "Bridge inspection and design in New York State Region 8",
-      "highlights": ["Conducted inspections of in-service bridges in New York State Region 8 for NYSDOT"],
       "responsibilities": [
         "Inspect in-service bridges, perform structural analysis, compile inspection reports in NYSDOT's BDIS (Bridge Data Information System)",
         "Maintain self-developed field assistant app"
