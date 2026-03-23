@@ -6,7 +6,7 @@
     "email": "Byang0845@Gmail.com",
     "phone": "8607290003",
     "url": "https://bya0845.github.io/website",
-    "summary": "Hello! I am a recent graduate of Georgia Tech's Computer Science Master's program. You can read about my OMSCS experience in the blog linked below. \n\n I will be starting a new role next month as a data engineer/structural engineer at WSP USA.",
+    "summary": "Hello! I am a recent graduate of Georgia Tech's Computer Science Master's program. You can read about my OMSCS experience in the blog linked below. \n\n I currently work as a a data/structural engineer at WSP USA.",
     "theme": "default",
     "location": {
       "address": "",
@@ -66,7 +66,7 @@
       "startDate": "2021-08-01",
       "endDate": null,
       "responsibilities": [
-        "Inspect in-service bridges, perform structural analysis, compile inspection reports in NYSDOT's BDIS (Bridge Data Information System)",
+        "Inspect in-service bridges, compile inspection reports in NYSDOT's BDIS (Bridge Data Information System)",
         "Maintain self-developed field assistant app"
       ],
       "skills": ["Structural Analysis", "Data Processing", "Technical Documentation"]
